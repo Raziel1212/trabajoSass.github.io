@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,100&display=swap");
+
+$font-family-base: "Roboto", sans-serif;
+
+p {
+  color: rgba(255, 255, 255, 0.938);
+}
+
+.card {
+  width: 18rem;
+}
+
+$purple: #cf649a;
+
+$theme-colors: (
+  "purple": $purple,
+);
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+.card-red {
+  @extend .card;
+  background: rgb(184, 12, 12);
+  color: white;
+}
+
+body {
+  background-color: rgb(249, 249, 104);
+}
